@@ -31,7 +31,11 @@ cd academic-website-template
 2. Select "Download ZIP"
 3. Extract the ZIP file and navigate to the folder
 
-### 2. Install Hugo
+### 2. Install Prerequisites
+
+This template requires two tools: Hugo (the website generator) and Go (needed for theme modules).
+
+#### Install Hugo
 
 Hugo is the static site generator that powers your website.
 
@@ -57,6 +61,33 @@ hugo version
 ```
 
 You should see version 0.136.5 or higher.
+
+#### Install Go
+
+Go is required for Hugo to download and manage the theme modules.
+
+**macOS:**
+```bash
+brew install go
+```
+
+**Windows:**
+Download from [Go Downloads](https://go.dev/dl/) or use:
+```bash
+choco install golang
+```
+
+**Linux:**
+```bash
+sudo apt-get install golang
+```
+
+**Verify installation:**
+```bash
+go version
+```
+
+You should see Go version 1.19 or higher.
 
 ### 3. Preview Your Site Locally
 
@@ -482,6 +513,16 @@ main:
 
 ## Troubleshooting
 
+### "binary with name 'go' not found in PATH"
+This error means Go is not installed. The Hugo Blox theme requires Go to download theme modules.
+
+**Solution:** Install Go using the instructions in the Prerequisites section above:
+- macOS: `brew install go`
+- Windows: Download from [go.dev/dl](https://go.dev/dl/) or `choco install golang`
+- Linux: `sudo apt-get install golang`
+
+After installing Go, run `hugo server` again.
+
 ### "Hugo command not found"
 Make sure Hugo is installed correctly. Run `hugo version` to check.
 
@@ -489,6 +530,7 @@ Make sure Hugo is installed correctly. Run `hugo version` to check.
 1. Make sure you're running `hugo server` from the root directory
 2. Check that all required files are present
 3. Try stopping the server (Ctrl+C) and restarting it
+4. Make sure both Hugo and Go are installed
 
 ### Changes not appearing on GitHub Pages
 1. Check the Actions tab for build errors

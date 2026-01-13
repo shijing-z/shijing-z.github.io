@@ -2,17 +2,28 @@
 
 Get your academic website up and running in 5 minutes!
 
-## 1. Install Hugo
+## 1. Install Prerequisites
+
+Install both Hugo and Go (both are required):
 
 ```bash
 # macOS
 brew install hugo
+brew install go
 
 # Windows (using Chocolatey)
 choco install hugo-extended
+choco install golang
 
 # Linux
 sudo apt-get install hugo
+sudo apt-get install golang
+```
+
+Verify:
+```bash
+hugo version  # Should show 0.136.5 or higher
+go version    # Should show 1.19 or higher
 ```
 
 ## 2. Preview Locally
