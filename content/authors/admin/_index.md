@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Your Name
+title: Shijing
 
 # Full name (for SEO)
-first_name: Your
-last_name: Name
+first_name: Shijing
+last_name: Zhou
 
 # Status emoji (optional - delete if you don't want one)
 status:
@@ -28,10 +28,10 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your.email@uoregon.edu'
+    url: 'shijingz@uoregon.edu'
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/yourusername
+    url: https://github.com/shijing-z
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/yourprofile
   - icon: academicons/google-scholar
@@ -115,7 +115,7 @@ skills:
 
 ## About Me
 
-I am a PhD student in Psychology at University Name, working with Prof. Advisor Name. My research examines how social and psychological factors influence health behavior and well-being. I use a combination of experimental methods, surveys, and longitudinal designs to understand these processes.
+I am a PhD student in Psychology at University of Oregon, working with Prof. Dasa Zeithamova. My research examines how social and psychological factors influence health behavior and well-being. I use a combination of experimental methods, surveys, and longitudinal designs to understand these processes.
 
 I am particularly interested in how personality traits and social relationships shape health outcomes over time. My current projects investigate stress, coping, and resilience in diverse populations.
 
